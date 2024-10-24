@@ -1,0 +1,84 @@
+name: kieth.kassulke
+description: uniform
+version: 0.0.1
+author: j44ylfdw.ixs99u9h@dqqlkrdj.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-10-24 21:57:46'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema:
+      model: model
+    description: null
+    author: j44ylfdw.ixs99u9h@dqqlkrdj.com
+    files: []
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-10-24 21:57:47'
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds:
+  .prophecy/metadata/sqlseeds/seed:
+    name: seed
+    schema:
+      seed:
+        seedInner: value
+    description: null
+    author: j44ylfdw.ixs99u9h@dqqlkrdj.com
+    files: []
+    createdAt: '2024-10-24 21:57:47'
+sqlSources:
+  .prophecy/metadata/sqlsources/source:
+    name: source
+    description: null
+    author: j44ylfdw.ixs99u9h@dqqlkrdj.com
+    files: []
+    createdAt: '2024-10-24 21:57:47'
+    tables:
+    - name: table1
+      schema:
+        table1: value
+      description: null
+      author: j44ylfdw.ixs99u9h@dqqlkrdj.com
+      createdAt: '2024-10-24 21:57:47'
+    - name: table2
+      schema:
+        table2: value
+      description: null
+      author: j44ylfdw.ixs99u9h@dqqlkrdj.com
+      createdAt: '2024-10-24 21:57:47'
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: j44ylfdw.ixs99u9h@dqqlkrdj.com
+  createdAt: '2024-10-24 21:57:46'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
